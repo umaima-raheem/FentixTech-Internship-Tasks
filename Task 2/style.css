@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #444;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+header.hero, .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+    min-height: auto;
+}
+
+header.hero {
+    background: linear-gradient(135deg, #fdfdfd 0%, #f4f4f4 100%);
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-logo { 
+    width: 220px; 
+    margin-bottom: 25px; 
+}
+
+h1 { 
+    font-size: 1.7rem; 
+    font-weight: 900; 
+    letter-spacing: 1px; 
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+h2 { 
+    font-size: 2rem; 
+    font-weight: 700; 
+    margin-bottom: 15px; 
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.content p {
+    font-size: 1.15rem;
+    color: #777;
+    line-height: 1.4;
+    max-width: 420px;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.download-buttons img {
+    height: 48px;
+}
+
+.vectors { 
+    width: 250px; 
+    margin-bottom: 20px; 
+}
+
+.visual {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.visual img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fafafa;
+}
+
+.main-footer .download-buttons { 
+    justify-content: center; 
+}
+
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.brand-footer img { 
+    width: 130px; 
+    margin-top: 40px; 
+    opacity: 0.7; 
+}
+
+@media (max-width: 992px) {
+    header.hero, .feature {
+        flex-direction: column !important;
+        padding: 30px 5%;
+    }
+    .alternate { 
+        flex-direction: column !important; 
+    }
+    .content { 
+        margin-bottom: 30px; 
+    }
+}
