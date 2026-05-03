@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+header, nav, footer, aside, article {
+    background-color: #f0f4f8;
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    height: 400px;
+}
+
+aside {
+    flex: 1; 
+}
+
+article {
+    flex: 3; 
+}
