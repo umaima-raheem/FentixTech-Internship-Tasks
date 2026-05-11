@@ -24,6 +24,7 @@ body {
     color: white;
     padding: 50px 40px 100px 40px;
     position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%);
 }
 
 .top-logo {
@@ -52,14 +53,7 @@ body {
 
 
 .header-cut {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 80px 150px;
-    border-color: transparent transparent white transparent;
+   display: none;
 }
 
 .awards-container {
@@ -127,15 +121,20 @@ body {
     margin-top: 40px;
 }
 
+.footer-section {
+    position: relative;
+    background-color: #93272c;
+    color: white;
+    margin-top: 40px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 85% 100%, 0% 100%);
+}
+
 .footer-cut {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 150px 80px 0;
-    border-color: transparent white transparent transparent;
+    display: none;
+}
+
+.footer-content {
+    padding: 60px 40px;
 }
 
 .footer-content {
